@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1 id="page-title">Welcome to My Webpage</h1>
+  </header>
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Main Content Area -->
+  <main>
+    <!-- Section 1: Text Content Change -->
+    <section>
+      <h2>Dynamic Text Change</h2>
+      <p id="dynamic-text">This is some dynamic text. Click the button to change it.</p>
+      <button id="changeTextBtn">Change Text</button>
+    </section>
+    
+    <!-- Section 2: CSS Style Modification -->
+    <section>
+      <h2>Modify Style</h2>
+      <p id="style-text" style="color: blue;">This text will toggle its color when the button is clicked.</p>
+      <button id="changeStyleBtn">Change Style</button>
+    </section>
+    
+    <!-- Section 3: Element Manipulation -->
+    <section>
+      <h2>Element Manipulation</h2>
+      <div id="container">
+        <p>This element can be removed or added.</p>
+      </div>
+      <button id="toggleElementBtn">Toggle Element</button>
+    </section>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 My Webpage</p>
+  </footer>
+  
+  <!-- Linking the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
